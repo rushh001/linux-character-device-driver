@@ -1,0 +1,56 @@
+# Kernel Module Build Artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.order
+*.symvers
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+.*.d
+
+# User-space Application
+test_chardev
+
+# LaTeX Build Artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+project_documentation.pdf
+
+# Editor/IDE
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.code-workspace
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Compiled binaries
+*.elf
+*.bin
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
